@@ -1,0 +1,12 @@
+/* buttons */
+rect.button { fill:dimgrey; rx:8; stroke:darkslategrey; }
+rect.button:hover { fill:grey; }
+rect.button:active { fill:silver; }
+/* darkgrey is lighter than grey! */
+rect.button:focus { fill:darkgrey; }
+rect.button:focus:hover { fill:lightgrey; }
+rect.button:focus:active { fill:silver; }
+rect.button:hover:active { fill:silver; }
+rect.button > text { stroke:black; }
+
+text.label { stroke:black; background:silver; }

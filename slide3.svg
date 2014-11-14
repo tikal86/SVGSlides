@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="650px" height="508px" viewBox="0 0 650 508"
+ xmlns="http://www.w3.org/2000/svg" version="1.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="qux">
+	<g><!-- animated rectangles -->
+		<rect x="0" y="0" width="320" height="240">
+			<animate attributeName="y" attributeType="XML"
+				begin="0ms" dur="500ms"
+				from="480" to="0" fill="freeze"/>
+		</rect>
+		<rect x="320" y="0" width="160" height="120">
+			<animate attributeName="fill-opacity" attributeType="XML"
+				begin="0ms" dur="1000ms"
+				from="0" to="0"/>
+			<animate attributeName="fill-opacity" attributeType="XML"
+				begin="1000ms" from="1" to="1" fill="freeze"/>
+			<animate attributeName="y" attributeType="XML"
+				begin="1000ms" dur="500ms"
+				from="480" to="0" fill="freeze"/>
+		</rect>
+	</g>
+
+	<path d="M0 240h320L320 120h160L480 0h160" fill="none"/>
+</g>
+</svg>

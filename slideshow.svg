@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet href="slideshow.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="800px" viewBox="0 0 800 800"
+ xmlns="http://www.w3.org/2000/svg" version="1.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <symbol id="triangle" viewBox="0 0 10 10">
+	<path d="M0 0l10 5l-10 5z"/>
+  </symbol>
+  <marker id="triangle-marker" viewBox="0 0 10 10" refX="0" refY="5" 
+      markerUnits="strokeWidth" markerWidth="4" markerHeight="3"
+      orient="auto">
+      <use xlink:href="#triangle" width="10" height="10"/>
+  </marker>
+  <symbol id="slideshow-controls" viewBox="0 0 100% 24">
+	<g onclick="ss.seek((-1))">
+		<rect class="button" id="prev" width="32" height="16"/>
+		<use xlink:href="#triangle" width="10" height="10" transform="translate(20,3) scale(-1,1)"/>
+	</g>
+	<g transform="translate(40, 0)" onclick="ss.seek(1)">
+		<rect class="button" id="next" width="32" height="16"/>
+		<use xlink:href="#triangle" x="13" y="3" width="10" height="10" />
+	</g>
+  </symbol>
+</defs>
+</svg>
