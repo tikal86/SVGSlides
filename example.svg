@@ -1,13 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet href="slideshow.css" type="text/css"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="650px" height="508px" viewBox="0 0 650 508"
- xmlns="http://www.w3.org/2000/svg" version="1.1"
- xmlns:xlink="http://www.w3.org/1999/xlink" onload="init_globals()">
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Example</title>
-<script xlink:href="slideshow.js" type="text/javascript"/>
-<use xlink:href="./slideshow.svg#slideshow-controls" x="4" y="4"
+<script href="slideshow.js" type="text/javascript"/>
+<use href="./slideshow.svg#slideshow-controls" x="4" y="4"
      width="100%" height="24"/>
 
 <rect x="3" y="23" width="642" height="482" fill="none"/>
