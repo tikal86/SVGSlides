@@ -4,7 +4,94 @@
 <svg width="650px" height="508px" viewBox="0 0 650 508"
  xmlns="http://www.w3.org/2000/svg" version="1.1"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="slide1">
-	<rect width="540" height="380" fill="red"/>
-</g>
+	<g id="slide1">
+	<text x="1" text-anchor="start" class="highcharts-title" data-z-index="4"
+		  style="color:#000000;font-size:18px;font-weight:bold;line-height:17;fill:#000000;" y="24">
+		<tspan>In het ziekenhuis opgenomen COVID-19 patiënten</tspan>
+	</text>
+	<text x="1" text-anchor="start" class="highcharts-subtitle" data-z-index="4"
+		  style="color:#666666;font-size:12px;font-weight:normal;line-height:12;fill:#666666;" y="44">
+		<tspan>Per 100.000 inwoners per gemeente tot en met 1-4-2020</tspan>
+	</text>
+	<g class="highcharts-legend" data-z-index="7" transform="translate(2,80)">
+	<rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="147" height="127"
+		  visibility="visible">
+	</rect>
+	<g data-z-index="1" transform="translate(0,20)">
+	<g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,-5)">
+			<text x="30" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2" y="14">
+				<tspan>Geen meldingen</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#ffffff" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,9)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>&lt; 10</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#ffffcc" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,23)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>10 - 30</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#c7e9b4" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,37)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>30 - 50</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#7fcdbb" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,51)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>50 - 100</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#41b6c4" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,65)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>100 - 150</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#2c7fb8" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-undefined-series highcharts-color-undefined highcharts-series-undefined"
+		   data-z-index="1" transform="translate(0,79)">
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>150 - 246</tspan>
+			</text>
+			<rect x="0" y="2" width="25" height="13" fill="#253494" class="highcharts-point" data-z-index="3"
+				  stroke-width="0.5" stroke="#6e6e6e"></rect>
+		</g>
+		<g class="highcharts-legend-item highcharts-mapline-series highcharts-color-undefined highcharts-series-0"
+		   data-z-index="1" transform="translate(0,113)">
+			<path fill="none" d="M 0 11 L 25 11" class="highcharts-graph" stroke="#6e6e6e" stroke-width="1.5"></path>
+			<text x="30" y="14" style="color:#333333;font-size:11px;font-weight:normal;cursor:default;fill:#333333;"
+				  text-anchor="start" data-z-index="2">
+				<tspan>GGD-regio's</tspan>
+			</text>
+		</g>
+	</g>
+	</g>
+	</g>
+	</g>
 </svg>
