@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet href="slideshow.css" type="text/css"?>
-<svg width="650px" height="508px" viewBox="0 0 650 508"
+<svg width="650px" height="658px" viewBox="0 0 650 658"
  xmlns="http://www.w3.org/2000/svg" version="1.1"
  xmlns:xlink="http://www.w3.org/1999/xlink" onload="init_globals()">
 <title>Example</title>
@@ -28,20 +28,64 @@
 <use xlink:href="#slideshow-controls" x="4" y="4"
      width="100%" height="24"/>
 
-<rect x="3" y="23" width="642" height="482" fill="none"/>
+<rect x="3" y="23" width="642" height="632" fill="none"/>
 
 <g transform="translate(4,24)" clip-path="url(#snapshot-viewer)">
 	<clipPath id="snapshot-viewer">
-		<rect width="640" height="480"/>
+		<rect width="640" height="630"/>
 	</clipPath>
 
 	<!-- slides in group elements starting with "slideshow-first" -->
 	<use id="slideshow-first" display="inline"
 		xlink:href="./slide1.svg#slide1"/>
-	<use id="hello" display="none"
-		xlink:href="./slide2.svg#foobarbaz"/>
-	<use id="world" display="none"
-		xlink:href="./slide3.svg#qux"/>
+	<use id="1" display="none"
+		 xlink:href="./slides/covid-19-20200401-chart.svg#1"/>
+	<use id="2" display="none"
+		 xlink:href="./slides/covid-19-20200403-chart.svg#1"/>
+	<use id="3" display="none"
+		 xlink:href="./slides/covid-19-20200404-chart.svg#1"/>
+	<use id="5" display="none"
+		 xlink:href="./slides/covid-19-20200406-chart.svg#1"/>
+	<use id="6" display="none"
+		 xlink:href="./slides/covid-19-20200407-chart.svg#1"/>
+	<use id="7" display="none"
+		 xlink:href="./slides/covid-19-20200408-chart.svg#1"/>
+	<use id="8" display="none"
+		 xlink:href="./slides/covid-19-20200409-chart.svg#1"/>
+	<use id="9" display="none"
+		 xlink:href="./slides/covid-19-20200410-chart.svg#1"/>
+	<use id="10" display="none"
+		 xlink:href="./slides/covid-19-20200411-chart.svg#1"/>
+	<use id="11" display="none"
+		 xlink:href="./slides/covid-19-20200412-chart.svg#1"/>
+	<use id="12" display="none"
+		 xlink:href="./slides/covid-19-20200413-chart.svg#1"/>
+	<use id="12" display="none"
+		 xlink:href="./slides/covid-19-20200414-chart.svg#1"/>
+	<use id="14" display="none"
+		 xlink:href="./slides/covid-19-20200415-chart.svg#1"/>
+	<use id="15" display="none"
+		 xlink:href="./slides/covid-19-20200416-chart.svg#1"/>
+	<use id="16" display="none"
+		 xlink:href="./slides/covid-19-20200417-chart.svg#1"/>
+	<use id="18" display="none"
+		 xlink:href="./slides/covid-19-20200419-chart.svg#1"/>
+	<use id="19" display="none"
+		 xlink:href="./slides/covid-19-20200420-chart.svg#1"/>
+	<use id="20" display="none"
+		 xlink:href="./slides/covid-19-20200421-chart.svg#1"/>
+	<use id="21" display="none"
+		 xlink:href="./slides/covid-19-20200422-chart.svg#1"/>
+	<use id="22" display="none"
+		 xlink:href="./slides/covid-19-20200423-chart.svg#1"/>
+	<use id="24" display="none"
+		 xlink:href="./slides/covid-19-20200425-chart.svg#1"/>
+	<use id="25" display="none"
+		 xlink:href="./slides/covid-19-20200426-chart.svg#1"/>
+	<use id="27" display="none"
+		 xlink:href="./slides/covid-19-20200428-chart.svg#1"/>
+	<use id="28" display="none"
+		 xlink:href="./slides/covid-19-20200429-chart.svg#1"/>
 	<g id="slideshow-last" display="none">
 		<use xlink:href="./slide4.svg#slide4"/>
 	</g>
